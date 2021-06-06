@@ -62,8 +62,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #39c0e7;
-  color: #fff;
+  background: #ffffff;
+}
+
+.back-to-top:hover i{
+  color: #3cea2b;
 }
 
 .back-to-top.active {
