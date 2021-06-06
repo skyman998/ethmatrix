@@ -25,6 +25,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Rapid - v4.2.0
@@ -59,7 +60,7 @@
 
       <div class="social-links">
         <a href="#" class="telegram"><i class="bi bi-telegram"></i></a>
-        <a href="#" class="discord"><i class="bi bi-discord"></i></a>
+        <a href="#" class="reddit"><i class="fa fa-reddit" aria-hidden="true"></i></a>
         <a href="#" class="github"><i class="bi bi-github"></i></a>
       </div>
 
@@ -101,7 +102,7 @@
         </div>
         <div class="col-md-3">
           <a href="#">
-            <img src="assets/img/certik.png"/>
+            <img src="assets/img/dextools.png"/>
           </a>
         </div>
         <div class="col-md-3">
@@ -111,7 +112,7 @@
         </div>
         <div class="col-md-3">
           <a href="#">
-            <img src="assets/img/nomics.png"/>
+            <img src="assets/img/etherscan.png"/>
           </a>
         </div>
       </div>
@@ -153,7 +154,7 @@
 
         <header class="section-header">
           <h3>Tax</h3>
-          <p class="desc">Improved anti-dump incremental protection</p>
+          <p class="desc">Improved anti-dump protection</p>
         </header>
 
         <div class="row">
@@ -169,7 +170,7 @@
             <div class="box">
               <div class="icon" style="background: #fff0da;"><i class="bi bi-shield-fill-exclamation" style="color: #e98e06;"></i></div>
               <!-- <h4 class="title"><a href="">Dolor Sitema</a></h4> -->
-              <p class="description">Each sell is limited to 3.5% price impact to prevent whale dumps. Only 4 sells with increasing sell cooldowns and tax rates are allowed within a 24 hours period to prevent serial dumping.</p>
+              <p class="description">Each sell is limited to 3.5% price impact to prevent whale dumps. Only 4 sells with increasing sell cooldowns and tax rates are allowed within a 24 hours period to prevent serial dumping. First cooldown 1 hour, second cooldown 2 hours, third cooldown 6 hours. Reset after 1 day from first sell.</p>
             </div>
           </div>
 
@@ -190,8 +191,8 @@
         <div class="row">
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="roadmap-img">
-              <img src="assets/img/tax.png" alt="" class="img-fluid">
+            <div class="roadmap-img" style="padding-left:5%">
+              <img src="assets/img/nvl.gif" alt="" class="img-fluid">
             </div>
           </div>
 
@@ -217,12 +218,12 @@
               <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-card-checklist" style="color: #39cf2b;"></i>
                 <h4>Phase 4</h4>
-                <p class="desc">The EthereuMatrix Yield farming, empower our community with DeF</p>
+                <p class="desc">The EthereuMatrix yield farming, empower our community with DeFi</p>
               </div>
               <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-card-checklist" style="color: #39cf2b;"></i>
                 <h4>Phase 5</h4>
-                <p class="desc">Algorithmic stablecoin of our own, free us from FIAT currency and government censorship</p>
+                <p class="desc">Algorithmic stablecoin of our own, free us from FIAT currency</p>
               </div>
               <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-card-checklist" style="color: #39cf2b;"></i>
@@ -275,7 +276,7 @@
             <p class="cta-text">
               <div class="input-group mb-4 shadow-none" style="max-width:700px">
                 <div class="input-group-prepend">
-                  <div class="input-group-text">Address</div>
+                  <div class="input-group-text">Contract</div>
                 </div>
                 <input id="address" type="text" value="0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3" class="form-control border-0" style="font-family:monospace;font-size:14px" id="copyField" readonly="">
                 <div class="input-group-append">
@@ -316,7 +317,7 @@
             <p>The safest place to buy $MATRIX is on Uniswap. Visit Uniswap and click “connect wallet” MetaMask will ask for your signature, go ahead and sign it.</p>
 
             <h3>Swap $ETH for $MATRIX</h3>
-            <p>Set your slippage to 10% and enter the amount of $ETH you would like to swap for $MATRIX. Click Connect Wallet then Swap.</p>
+            <p>Set your slippage to 20% and enter the amount of $ETH you would like to swap for $MATRIX. Click Connect Wallet then Swap.</p>
             
           </div>
 
@@ -336,22 +337,18 @@
 
         <div class="big-social-links d-flex justify-content-around"> 
               <div class="center">
-                <i class="bi bi-telegram"></i>
-                Telegram 
+                <a href="#"><i class="bi bi-telegram"></i>Telegram </a>
               </div>
             
               <div class="center">
-                <i class="bi bi-discord"></i>
-                Discord
+                <a href="#"><i class="fa fa-reddit" aria-hidden="true"></i>Reddit</a>
               </div>
             
               <div class="center">
-                <i class="bi bi-twitter"></i>
-                Twitter
+                <a href="#"><i class="bi bi-twitter"></i>Twitter</a>
               </div>
               <div class="center">
-                <i class="bi bi-github"></i>
-                Github
+                <a href="#"><i class="bi bi-github"></i>Github</a>
               </div>
              
         </div>
@@ -370,9 +367,6 @@
       <div class="copyright">
         &copy; Copyright <strong>EthererumMatrix</strong>. All Rights Reserved
       </div>
-      <!-- <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/"></a>
-      </div> -->
     </div>
   </footer><!-- End  Footer -->
 

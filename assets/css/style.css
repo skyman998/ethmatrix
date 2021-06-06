@@ -136,13 +136,13 @@ h1, h2, h3, h4, h5, h6 {
 #header .social-links a {
   color: #ccccd0;
   transition: 0.3s;
-  line-height: 0;
+  
   margin-left: 15px;
 }
 
-#header .social-links a i {
+/* #header .social-links a i {
   line-height: 0;
-}
+} */
 
 #header .social-links a:hover {
   color: #3cea2b;
@@ -1428,8 +1428,15 @@ input#address{
   font-size: 14px;
 }
 
-.big-social-links div i{
+.big-social-links div a{
   font-size: 20px;
+  color:#13c321;
+}
+.big-social-links div a:hover{
+  color:#ffffff;
+}
+.big-social-links div a i {
+  margin-right:8px;
 }
 
 #footer .footer-top {
