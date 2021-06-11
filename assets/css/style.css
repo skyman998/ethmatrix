@@ -526,75 +526,75 @@ section {
    width: 200px;
    margin: 0 auto;
 }
-/* About Us Section
+/* tokenomics Section
 --------------------------------*/
-#about {
+#tokenomics {
   padding: 80px 0;
   background-color: #011104;
   background-image: url("../img/matrix_bg.gif");
   background-size: contain;
 }
 
-#about .about-content {
+#tokenomics .tokenomics-content {
   padding-top: 40px;
 }
 
-#about .about-content h2 {
+#tokenomics .tokenomics-content h2 {
   color: #dfdfdf;
   text-shadow: 2px 2px 2px #000000;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
-#about .about-content h2:hover{
+#tokenomics .tokenomics-content h2:hover{
   color: #13c321;
   font-weight: 700;
 }
 
-#about .about-content h3 {
+#tokenomics .tokenomics-content h3 {
   color: #dfdfdf;
   font-weight: 450;
   font-size: 22px;
   font-style: italic;
 }
 
-#about .about-content h3:hover {
+#tokenomics .tokenomics-content h3:hover {
   color: #13c321;
   font-weight: 600;
 }
 
-#about .about-content ul {
+#tokenomics .tokenomics-content ul {
   list-style: none;
   padding: 0;
 }
 
-#about .about-content ul li {
+#tokenomics .tokenomics-content ul li {
   padding-bottom: 10px;
 }
 
-#about .about-content ul li i {
+#tokenomics .tokenomics-content ul li i {
   font-size: 20px;
   padding-right: 4px;
   color: #1bb1dc;
 }
 
-#about .about-img {
+#tokenomics .tokenomics-img {
   position: relative;
   margin: 30px 30px 30px 30px;
 }
 
-#about .about-img img {
+#tokenomics .tokenomics-img img {
   width: 100%;
   border: 8px solid rgb(44, 226, 126);
   transition: .5s;
 }
 
-#about .about-img img:hover {
+#tokenomics .tokenomics-img img:hover {
   width: 100%;
   transform: scale(1.03);
 }
 /* 
-#about .about-img::before {
+#tokenomics .tokenomics-img::before {
   position: absolute;
   left: -31px;
   top: -30px;
@@ -606,7 +606,7 @@ section {
   transition: .5s;
 }
 
-#about .about-img::after {
+#tokenomics .tokenomics-img::after {
   position: absolute;
   right: -31px;
   bottom: -30px;
@@ -620,11 +620,11 @@ section {
 
 /* Services Section
 --------------------------------*/
-#services {
+#tax {
   padding: 60px 0 40px 0;
 }
 
-#services .box {
+#tax .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -636,11 +636,11 @@ section {
   text-align: center;
 }
 
-#services .box:hover {
+#tax .box:hover {
   transform: scale(1.1);
 }
 
-#services .icon {
+#tax .icon {
   margin: 0 auto 15px auto;
   padding-top: 12px;
   display: inline-block;
@@ -650,32 +650,32 @@ section {
   height: 60px;
 }
 
-#services .icon i {
+#tax .icon i {
   font-size: 36px;
   line-height: 0;
 }
 
-#services .title {
+#tax .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#tax .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#tax .box:hover .title a {
   color: #1bb1dc;
 }
 
-#services .description {
+#tax .description {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
 }
-#services .section-header h3{
+#tax .section-header h3{
   color:#13c321;
 }
 /* Why Us Section
