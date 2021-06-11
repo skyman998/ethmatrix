@@ -9,16 +9,6 @@
   <a href ="https://ethereumatrix.com/" target="_blank">https://ethereumatrix.com/</a>
 </p>
 
-<p align="center">
-  <a href="https://ethereumatrix.com/">HOME</a>
-  •
-  <a href="https://ethereumatrix.com/#tokenomics">TOKENOMICS</a>
-  •
-  <a href="https://ethereumatrix.com/#tax">TAX</a>
-  •
-  <a href="https://ethereumatrix.com/#roadmap">ROADMAP</a>
-</p>
----
 
 ## About
 
