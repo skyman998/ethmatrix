@@ -69,6 +69,7 @@
           <!-- <li><a class="nav-link scrollto" href="#tax">Tax</a></li> -->
           <li><a class="nav-link scrollto " href="#roadmap">Roadmap</a></li>
           <li><a class="nav-link scrollto" href="#buy">Buy</a></li>
+          <li><a href="javascript:playOrPauseBgm();"><i id="bgmIcon" class="bi bi-volume-up"></i></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -175,7 +176,6 @@
 
         <header class="section-header">
           <h3>Memecoin 2.0</h3>
-          <p class="desc">Improved anti-dump protection</p>
         </header>
 
         <div class="row">
@@ -413,15 +413,36 @@
     // }
 
     // document.querySelector("#copy").addEventListener("click", copy);
+    var bgmPlaying = false;
 
     function musicPlay() {
+      bgmPlaying = true;
       document.getElementById('playAudio').play();
       document.removeEventListener('click', musicPlay);
     }
+
     document.addEventListener('click', musicPlay);
     // document.addEventListener('scroll',musicPlay);
-    function stopbgm(){
+    function pausebgm(){
+      bgmPlaying = false;
       document.getElementById('playAudio').pause();
+      document.currentTime = 0;
+      document.getElementById('bgmIcon').classList.remove('bi-volume-up');
+      document.getElementById('bgmIcon').classList.add('bi-volume-mute');
+    }
+    function playbgm(){
+      bgmPlaying = true;
+      document.getElementById('playAudio').play();
+      document.getElementById('bgmIcon').classList.remove('bi-volume-mute');
+      document.getElementById('bgmIcon').classList.add('bi-volume-up');
+    }
+
+    function playOrPauseBgm(){
+      if(bgmPlaying){
+        pausebgm();
+      } else {
+        playbgm();
+      }
     }
 
   </script>
