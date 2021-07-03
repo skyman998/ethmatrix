@@ -306,7 +306,7 @@
           <div class="col-md-3"></div>
           <div class="col-md-6" >
             <iframe src="https://app.uniswap.org/#/swap?outputCurrency="
-            style="height: 500px;width: 550px;margin: 0 auto;"></iframe>
+            style="height: 600px;width: 550px;margin: 0 auto;scrolling:no"></iframe>
           </div>
           <div class="col-md-3"></div>
         </div>
@@ -324,18 +324,18 @@
           </div>
 
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="150">
-            <h4>How to buy $MATRIX</h4>
+            <h4>How to buy $eMTX</h4>
             <h3>Create a MetaMask Wallet</h3>
-            <p>$MATRIX token is available on the Ethereum blockchain. MetaMask is the market leader in ERC20 (Ethereum) wallets</p>
+            <p>$eMTX token is available on the Ethereum blockchain. MetaMask is the market leader in ERC20 (Ethereum) wallets</p>
 
             <h3>Send $ETH to MetaMask</h3>
             <p>Buy Ethereum through MetaMask or transfer it to your MetaMask wallet address from another wallet (e.g. Coinbase or Binance).</p>
 
             <h3>Visit Uniswap</h3>
-            <p>The safest place to buy $MATRIX is on Uniswap. Visit Uniswap and click “connect wallet” MetaMask will ask for your signature, go ahead and sign it.</p>
+            <p>The safest place to buy $eMTX is on Uniswap. Visit Uniswap and click “connect wallet” MetaMask will ask for your signature, go ahead and sign it.</p>
 
-            <h3>Swap $ETH for $MATRIX</h3>
-            <p>Set your slippage to 20% and enter the amount of $ETH you would like to swap for $MATRIX. Click Connect Wallet then Swap.</p>
+            <h3>Swap $ETH for $eMTX</h3>
+            <p>Set your slippage to 20% and enter the amount of $ETH you would like to swap for $eMTX. Click Connect Wallet then Swap.</p>
             
           </div>
 
@@ -386,6 +386,11 @@
       </div>
     </div>
   </footer><!-- End  Footer -->
+  <iframe src="assets/TheMatrixSoundtrack.mp3" allow="autoplay" type=”audio/mp3″ style="display:none" id="iframeAudio">
+  </iframe> 
+  <audio autoplay loop  id="playAudio">
+    <source src="assets/TheMatrixSoundtrack.mp3">
+  </audio>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -400,14 +405,25 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-    function copy() {
-      var copyText = document.querySelector("#address");
-      copyText.select();
-      document.execCommand("Copy");
+  <script type="text/javascript">
+    // function copy() {
+    //   var copyText = document.querySelector("#address");
+    //   copyText.select();
+    //   document.execCommand("Copy");
+    // }
+
+    // document.querySelector("#copy").addEventListener("click", copy);
+
+    function musicPlay() {
+      document.getElementById('playAudio').play();
+      document.removeEventListener('click', musicPlay);
+    }
+    document.addEventListener('click', musicPlay);
+    // document.addEventListener('scroll',musicPlay);
+    function stopbgm(){
+      document.getElementById('playAudio').pause();
     }
 
-    document.querySelector("#copy").addEventListener("click", copy);
   </script>
 
 </body>
