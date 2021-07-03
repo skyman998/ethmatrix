@@ -529,14 +529,14 @@ section {
 /* tokenomics Section
 --------------------------------*/
 #tokenomics {
-  padding: 80px 0;
+  padding: 60px 0;
   background-color: #011104;
   background-image: url("../img/matrix_bg.gif");
   background-size: contain;
 }
 
 #tokenomics .tokenomics-content {
-  padding-top: 40px;
+  /* padding-top: 10px; */
 }
 
 #tokenomics .tokenomics-content h2 {
@@ -576,6 +576,10 @@ section {
   font-size: 20px;
   padding-right: 4px;
   color: #1bb1dc;
+}
+
+.tokenomics-content p.desc{
+  margin: 0 0 10px 0;
 }
 
 #tokenomics .tokenomics-img {
@@ -783,31 +787,31 @@ input#address{
   font-family: monospace;
   background-color: #72ffc2;
 }
-#call-to-action {
+#buy {
   background: #2d2b46;
   background-size: cover;
   padding: 40px 0;
 }
 
-#call-to-action .cta-title {
+#buy .cta-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+#buy .cta-text {
   color: #fff;
 }
 
 @media (min-width: 991px) {
-  #call-to-action .cta-btn-container {
+  #buy .cta-btn-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
 }
 
-#call-to-action .cta-btn {
+#buy .cta-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -821,7 +825,7 @@ input#address{
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#buy .cta-btn:hover {
   background: #13c321;
   color:#ffffff;
   border: 3px solid #13c321;
